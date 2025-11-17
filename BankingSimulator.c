@@ -20,11 +20,9 @@ typedef struct {
 } Account;
 
 int main() {
-    system("cls");
-    SetConsoleTitle("Bank of NED University - Console Banking System");
+    SetConsoleTitle("Bank of NED University - Console Banking Simulator");
 
     while (1) {
-        setColor(11);
         printHeader();
         printf("\n");
         setColor(15);
@@ -78,9 +76,10 @@ void setColor(int color) {
 // Print program header
 void printHeader() {
     setColor(9);
-    printf("==============================================\n");
-    printf("        BANK OF NED UNIVERSITY SIMULATOR        \n");
-    printf("==============================================\n");
+printf("==============================================\n");
+printf("              BANK OF NED UNIVERSITY           \n");
+printf("==============================================\n");
+
 }
 
 // Print separator line
